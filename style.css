@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+header {
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+}
+header h3 {
+	color: grey;
+	font: 1rem;
+}
+
+#img-div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 70%;
+	margin: 30px auto;
+}
+#image {
+	max-width: 100%;
+	height: auto;
+}
+#main {
+	padding: 0 50px;
+}
+footer {
+	font-size: 1.3rem;
+	padding: 0 50px;
+	margin-bottom: 40px;
+	align-items: center;
+	text-align: center;
+	padding-top: 20px;
+	color: blue;
+}
